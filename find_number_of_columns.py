@@ -9,5 +9,4 @@ def find_number_of_columns(data):
     """
     columns_len = len(data[0])
     return columns_len
-print(find_number_of_columns(reader_csv('data.csv')))
 # Read the csv file
