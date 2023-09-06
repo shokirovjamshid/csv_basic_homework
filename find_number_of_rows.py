@@ -9,5 +9,4 @@ def find_number_of_rows(data):
     """
     rows = int(data[-1][0])
     return rows
-print(find_number_of_rows(reader_csv('data.csv')))
 # Read the csv file
